@@ -1,0 +1,17 @@
+.dashboard-tile{
+    position: relative;
+    background-color: var(--bone-color);
+    padding: 15px;
+    border-radius: 15px;
+    resize: both;
+}
+
+.dashboard-tile__drag-point{
+    width: 7px;
+    height: 7px;
+    background-color: var(--fire-color);
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
