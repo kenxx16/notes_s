@@ -10,11 +10,21 @@
     --fire-color: #DB162F;
     --text-grey-color: #474747;
     --text-light-color: #EFEFEF;
+    --gray-color: #cccccc;
 }
 
+
+*{
+    box-sizing: border-box;
+}
 
 body {
     background-color: var(--light-color);
     color: var(--text-grey-color);
     font-family: "Advent Pro", sans-serif;;
+    margin: 30px 15px;
+}
+
+p, h1, h2, h3, h4, h5, h5{
+    margin: 0;
 }

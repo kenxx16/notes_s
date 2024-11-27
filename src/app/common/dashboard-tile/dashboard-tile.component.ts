@@ -9,10 +9,4 @@ import { Component } from '@angular/core';
 })
 export class DashboardTileComponent {
   
-
-  elementLog(el:any): void {
-    console.log(el.target.parentNode)
-  }
-
-
 }

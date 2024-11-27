@@ -1,17 +1,28 @@
+
+
 .dashboard-tile{
-    position: relative;
-    background-color: var(--bone-color);
+    // position: relative;
+    background-color: var(--gray-color);
     padding: 15px;
     border-radius: 15px;
-    resize: both;
+    inset: 5px;
+    margin: 0;
+    position: absolute;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    // height: 100%;
+    // width: 100%;
+    // resize: both;
 }
 
-.dashboard-tile__drag-point{
-    width: 7px;
-    height: 7px;
-    background-color: var(--fire-color);
-    border-radius: 100%;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
+// .dashboard-tile__drag-point{
+//     width: 7px;
+//     height: 7px;
+//     background-color: var(--fire-color);
+//     border-radius: 100%;
+//     position: absolute;
+//     right: 0;
+//     bottom: 0;
+//     cursor: nw-resize;
+// }

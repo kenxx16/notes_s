@@ -8,7 +8,9 @@ export class ProfileService {
 
   http:HttpClient = inject(HttpClient)
 
-  constructor() { }
+  constructor() { 
+    
+  }
 
   baseApiUrl:string = 'https://icherniakov.ru/yt-course/';
   getTestAccounts() {
